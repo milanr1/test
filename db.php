@@ -1,12 +1,10 @@
 <?php
 
 $servername = "localhost";
-$username = "root";
+$username = "remenar";
 $password = "grambli1";
-$dbname1 = $_GET["dbname1"];
 $dbname = "accounts";
 echo "dbname " . $dbname . "<br>";
-echo "dbname1 " . $dbname1 . "<br>";
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
