@@ -63,4 +63,5 @@ echo "Pocet riadkov: " . $result->num_rows;
 
 $conn->close();
 
+
 ?>
